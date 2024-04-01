@@ -29,7 +29,7 @@
     "forwardPorts": [5000, 5432],
 
     // Use 'postCreateCommand' to run commands after the container is created.
-    // "postCreateCommand": "pipenv install",
+    "postCreateCommand": "pipenv install",
 
     // Configure tool-specific properties.
     "customizations": {
